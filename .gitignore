@@ -1,0 +1,30 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.js
+*.map
+
+# ignore tmp/build directories
+*.swp
+tmp
+bin
+dist
+DerivedData
+
+# ignore os x / xcode metadata:
+.DS_Store
+xcuserdata
+**/*.xccheckout
+
+# ignore output from ealib:
+checkpoint-*
+*.dat

@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		42720F6F163823AF008C8E63 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 42720F70163823AF008C8E63 /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				42A160C516B87E2F0007755C /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		421ADE3D197BEA1B007EDE79 /* libea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421ADE3C197BEA1B007EDE79 /* libea.a */; };
+		42A1609316B82FDB0007755C /* all_ones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42F4EE6916AEE845000123A4 /* all_ones.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A160C416B87E2F0007755C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4244196715859482009863BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F4EE5B16AEE80D000123A4;
+			remoteInfo = "matrix-mkv";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42F4EE6216AEE80D000123A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		421ADE3C197BEA1B007EDE79 /* libea.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libea.a; path = ../ealib/build/Debug/libea.a; sourceTree = "<group>"; };
+		421ADE3E197BEA48007EDE79 /* all_ones.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = all_ones.cfg; sourceTree = "<group>"; };
+		42441B3E15862E1B009863BE /* Jamroot */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jamroot; sourceTree = "<group>"; };
+		42706B11166AF51C003FB2E3 /* template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = template.xcconfig; sourceTree = "<group>"; };
+		42F4EE6616AEE80D000123A4 /* template-all-ones */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "template-all-ones"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F4EE6916AEE845000123A4 /* all_ones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = all_ones.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F4EE5E16AEE80D000123A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421ADE3D197BEA1B007EDE79 /* libea.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4244196515859482009863BE = {
+			isa = PBXGroup;
+			children = (
+				42441B3E15862E1B009863BE /* Jamroot */,
+				42441A7A15861669009863BE /* etc */,
+				424419941585961A009863BE /* lib */,
+				42441A01158613F5009863BE /* src */,
+				4244197115859482009863BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4244197115859482009863BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F4EE6616AEE80D000123A4 /* template-all-ones */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424419941585961A009863BE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				421ADE3C197BEA1B007EDE79 /* libea.a */,
+			);
+			name = lib;
+			path = ../apps;
+			sourceTree = "<group>";
+		};
+		42441A01158613F5009863BE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				42F4EE6916AEE845000123A4 /* all_ones.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		42441A7A15861669009863BE /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				421ADE3E197BEA48007EDE79 /* all_ones.cfg */,
+				42706B11166AF51C003FB2E3 /* template.xcconfig */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F4EE5B16AEE80D000123A4 /* template-all-ones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F4EE6316AEE80D000123A4 /* Build configuration list for PBXNativeTarget "template-all-ones" */;
+			buildPhases = (
+				42F4EE5C16AEE80D000123A4 /* Sources */,
+				42F4EE5E16AEE80D000123A4 /* Frameworks */,
+				42F4EE6216AEE80D000123A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "template-all-ones";
+			productName = "ocr-single";
+			productReference = 42F4EE6616AEE80D000123A4 /* template-all-ones */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4244196715859482009863BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Michigan State University";
+			};
+			buildConfigurationList = 4244196A15859482009863BE /* Build configuration list for PBXProject "template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4244196515859482009863BE;
+			productRefGroup = 4244197115859482009863BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42720F6F163823AF008C8E63 /* all */,
+				42F4EE5B16AEE80D000123A4 /* template-all-ones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F4EE5C16AEE80D000123A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A1609316B82FDB0007755C /* all_ones.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A160C516B87E2F0007755C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F4EE5B16AEE80D000123A4 /* template-all-ones */;
+			targetProxy = 42A160C416B87E2F0007755C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4244197815859482009863BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42706B11166AF51C003FB2E3 /* template.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4244197915859482009863BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42706B11166AF51C003FB2E3 /* template.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		42720F71163823AF008C8E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		42720F72163823AF008C8E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		42F4EE6416AEE80D000123A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		42F4EE6516AEE80D000123A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4244196A15859482009863BE /* Build configuration list for PBXProject "template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4244197815859482009863BE /* Debug */,
+				4244197915859482009863BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42720F70163823AF008C8E63 /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42720F71163823AF008C8E63 /* Debug */,
+				42720F72163823AF008C8E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F4EE6316AEE80D000123A4 /* Build configuration list for PBXNativeTarget "template-all-ones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F4EE6416AEE80D000123A4 /* Debug */,
+				42F4EE6516AEE80D000123A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4244196715859482009863BE /* Project object */;
+}
