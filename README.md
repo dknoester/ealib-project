@@ -1,0 +1,4 @@
+template
+========
+
+EALib project template
