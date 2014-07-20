@@ -1,4 +1,4 @@
 template
 ========
 
-EALib project template
+Template repository for EALib projects
