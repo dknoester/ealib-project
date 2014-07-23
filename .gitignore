@@ -20,6 +20,7 @@ tmp
 bin
 dist
 DerivedData
+var
 
 # ignore os x / xcode metadata:
 .DS_Store
