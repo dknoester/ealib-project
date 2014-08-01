@@ -3,6 +3,7 @@
 *.lo
 *.o
 *.pyc
+*.egg-info
 
 # Compiled Dynamic libraries
 *.so
@@ -16,6 +17,8 @@
 
 # ignore tmp/build directories
 *.swp
+*.Rhistory
+*.Rcheck
 tmp
 bin
 dist
@@ -24,6 +27,7 @@ var
 
 # ignore os x / xcode metadata:
 .DS_Store
+.metadata
 xcuserdata
 **/*.xccheckout
 
