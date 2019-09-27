@@ -29,8 +29,9 @@ var
 .DS_Store
 .metadata
 xcuserdata
+xcshareddata
 **/*.xccheckout
 
 # ignore output from ealib:
-checkpoint-*
+checkpoint*
 *.dat
